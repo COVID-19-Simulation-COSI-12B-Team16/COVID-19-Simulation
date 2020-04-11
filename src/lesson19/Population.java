@@ -55,4 +55,6 @@ public abstract class Population{
     people[0].infected = true;
   }
 
+
+
 }

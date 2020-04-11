@@ -102,4 +102,12 @@ public class Country {
 		}
 	}
 
+	public int getNumInfected(){
+		return this.numInfected;
+	}
+
+	public int getNumRecovered(){
+		return this.numRecovered;
+	}
+
 }
