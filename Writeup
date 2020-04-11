@@ -1,0 +1,108 @@
+
+
+With susceptible people added, average total time seems to increase:
+
+    Width 10, height 20, home 0, ess 20, skp 45, fliers 10, susp 5
+    Creating population
+    Creating people
+    Placing people
+    Initial State of the Country
+    O______O__O_OOOO__O_
+    __OO___O__OOO_______
+    OOOOOO___OO_O___O___
+    O_OOO__O_OO_OOOO____
+    _O_OO_O________O__OO
+    O_O_OOO___O_O______O
+    O____OO_O_____O_OO__
+    _XO_O_O______O_OO___
+    O_O_O__O______OO__O_
+    O____OOOOO_O_O_O____
+
+    Tracking the Infection
+      0 I_______________________________________________________________________________
+      1 III_____________________________________________________________________________
+      2 IIIIIII_________________________________________________________________________
+      3 IIIIIIIIIIIII___________________________________________________________________
+      4 IIIIIIIIIIIIIIIIIII____________________________________________________________R
+      5 IIIIIIIIIIIIIIIIIIIIIIII_______________________________________________________R
+      6 IIIIIIIIIIIIIIIIIIIIIIIIIIIII________________________________________________RRR
+      7 IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII______________________________________RRRRRR
+      8 IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII___________________________RRRRRRRRRRRR
+      9 IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII_________________RRRRRRRRRRRRRRRRRR
+     10 IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII______________RRRRRRRRRRRRRRRRRRRRRR
+     11 IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII_________RRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     12 IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII______RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     13 IIIIIIIIIIIIIIIIIIIIIIII______RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     14 IIIIIIIIIIIIII_____RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     15 IIIIIIIIIIII____RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     16 IIIIIIII___RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     17 IIIII___RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     18 IIIII__RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     19 IIII__RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     20 II__RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     21 I__RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     22 I__RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     23 __RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+
+    Final State of the Country
+    rr__________rrr_____
+    rrr_r_____r_r_rr_rr_
+    r___rr____r_r_______
+    r_rrrr___r_rr_______
+    rr_rOr_r_rr_____Orr_
+    ___r_r__r_r___rrrrrr
+    rrr_r__r_rr____r___r
+    _rr_r__r__r______r_r
+    r__r_rrr__r___rr_r__
+    r__rrr____r__r______
+
+
+    Width 10, height 20, home 0, ess 20, skp 50, fliers 10, susp 0
+    Creating population
+    Creating people
+    Placing people
+    Initial State of the Country
+    _OO____O___O__O__O_O
+    _______OO______O_O_O
+    ____OOO_O____OOOOO__
+    _____OOO___XOO___O__
+    OO_O_O____O_O__O__OO
+    ____OO_OOOOO__O_O_O_
+    ____OOO___OO__O____O
+    O____OOO_O____OOOO__
+    ____O_OO_O__OOO____O
+    _OO___O_OOOO___O__O_
+
+    Tracking the Infection
+      0 I_______________________________________________________________________________
+      1 II______________________________________________________________________________
+      2 IIII____________________________________________________________________________
+      3 IIIIII__________________________________________________________________________
+      4 IIIIIII________________________________________________________________________R
+      5 IIIIIIIIIIIII__________________________________________________________________R
+      6 IIIIIIIIIIIIIII_______________________________________________________________RR
+      7 IIIIIIIIIIIIIIIIIIIIII______________________________________________________RRRR
+      8 IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII______________________________________RRRRRR
+      9 IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII_______________________RRRRRRRR
+     10 IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII____________RRRRRRRRRRRRRR
+     11 IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII____RRRRRRRRRRRRRRRRR
+     12 IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII__RRRRRRRRRRRRRRRRRRRRRRRRRR
+     13 IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII__RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     14 IIIIIIIIIIIIIIIIIIIIII_RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     15 IIIIIIIIIII_RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     16 III_RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     17 I_RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     18 I_RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+     19 _RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+
+    Final State of the Country
+    ______r__r___r_r_r__
+    r__rr_r__rr_r_rr____
+    _r_r__rr___r__r_____
+    _r_____rr__r_rrr__O_
+    r_rr_r___rrr____r__r
+    __r_rr_____rr____rrr
+    _____r__r___r_r_r___
+    ___r____rrr_r_rr__r_
+    r__rr___r_rr_rrrr__r
+    __rrrr_rr__r_r__rr_r
