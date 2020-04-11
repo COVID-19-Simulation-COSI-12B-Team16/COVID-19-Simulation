@@ -1,3 +1,5 @@
 /bin/
 .DS_Store
 *.class
+.idea/
+COVID-19-Simulation.iml
