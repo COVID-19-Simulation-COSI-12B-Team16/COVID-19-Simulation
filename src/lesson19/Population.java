@@ -11,7 +11,7 @@ The Population class can have subclasses of different
 kinds of populations!
 
 */
-public class Population{
+public abstract class Population{
   public Person[] people;
   private int numPeople = 0;
   private Random random = new Random();
@@ -21,11 +21,7 @@ public class Population{
     //this.createPeople();
   }
 
-  public void createPeople(){
-    for(int i=0; i<this.people.length; i++){
-      this.addPerson(new Person());
-    }
-  }
+  public abstract void createPeople();
 
 
   public void addPerson(Person p){

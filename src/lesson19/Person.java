@@ -15,22 +15,22 @@ import java.util.Random;
 
 */
 
-public class Person {
-  // the persons fate depends on some random variables...
-  private Random random = new Random();
+public abstract class Person {
+  	// the persons fate depends on some random variables...
+  	private Random random = new Random();
 
-  // we use the counter to give each Person a unique id
+  	// we use the counter to give each Person a unique id
 	private static int counter=1;
-  int id = 0;
+  	int id = 0;
 
-  // Next we need the location of the Person
-  // the Country variable allows the user to "look around"
+  	// Next we need the location of the Person
+	// the Country variable allows the user to "look around"
 	int x;
 	int y;
 	Country country;
 
 
-  // next we record their infection status
+  	// next we record their infection status
 	boolean infected = false;
 	boolean exposed = false; // after being exposed, one gets infect in next tick
 	boolean recovered = false;
@@ -38,6 +38,7 @@ public class Person {
 	int age = 0;  // their age in ticks
 	int infectionTime = -1;  // -1 means they haven't yet been infected
 	int recoveryTime = 5; // they are not infectious after recovery
+
 
 
 
@@ -91,19 +92,17 @@ public class Person {
 
 	}
 
-  void tryToMove(){
-		tryToMoveRandomly();
-	}
+  	abstract void tryToMove();
   /**
 	   try to move one step in a random direction.
 		 if they way is blocked then don't move.
 	*/
-  void tryToMoveRandomly(){
-    int dx = random.nextInt(3)-1; // -1,0,1
-    int dy = random.nextInt(3)-1; // -1,0,1
-    if (isOK(this.x+dx, this.y+dy,this.country)) {
-      this.moveTo(this.x+dx, this.y+dy);
-    }
+  	protected void tryToMoveRandomly(){
+		int dx = random.nextInt(3)-1; // -1,0,1
+		int dy = random.nextInt(3)-1; // -1,0,1
+		if (isOK(this.x+dx, this.y+dy,this.country)) {
+		  this.moveTo(this.x+dx, this.y+dy);
+	}
   }
 
 	/**
