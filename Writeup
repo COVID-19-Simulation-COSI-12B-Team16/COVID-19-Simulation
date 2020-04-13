@@ -1,4 +1,5 @@
 
+Experiments:
 
 --- PART I ---
 
@@ -34,3 +35,10 @@
 
     Width 10, height 20, home 10, ess 20, skp 50, fliers 5, susceptible 0
     Simulation average days to recover 19, average infected people 79, with 100 times of repeats
+
+
+Reflection:
+
+    Inheritance makes the whole project code more reusable and avoids redundancy;
+    It seems RunSimulation can be reused in AnalyzeSimulation, we did not do that as it is required that AnalyzeSimulation
+    should not have the print output in RunSimulation;
